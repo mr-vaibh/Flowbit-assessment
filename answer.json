@@ -1,0 +1,245 @@
+[
+  {
+    "invoiceId": "INV-A-001",
+    "normalizedInvoice": {
+      "quantity": 100,
+      "currency": "EUR",
+      "vatIncluded": false
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "Applied learned vendor-specific memory with confidence gating",
+    "confidenceScore": 0,
+    "memoryUpdates": [
+      "Memory reinforced from human approval"
+    ],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.212Z",
+        "details": "Recalled 1 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.213Z",
+        "details": "Confidence insufficient, human review required"
+      },
+      {
+        "step": "learn",
+        "timestamp": "2025-12-25T14:43:30.214Z",
+        "details": "Stored new vendor memory: Leistungsdatum → serviceDate"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-A-002",
+    "normalizedInvoice": {
+      "quantity": 100,
+      "currency": "EUR",
+      "vatIncluded": false
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "Applied learned vendor-specific memory with confidence gating",
+    "confidenceScore": 0,
+    "memoryUpdates": [],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.214Z",
+        "details": "Recalled 2 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.214Z",
+        "details": "Confidence insufficient, human review required"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-A-003",
+    "normalizedInvoice": {
+      "quantity": 100,
+      "currency": "EUR",
+      "vatIncluded": false
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "Applied learned vendor-specific memory with confidence gating",
+    "confidenceScore": 0,
+    "memoryUpdates": [],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.214Z",
+        "details": "Recalled 2 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.214Z",
+        "details": "Confidence insufficient, human review required"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-A-004",
+    "normalizedInvoice": {
+      "quantity": 100,
+      "currency": "EUR",
+      "vatIncluded": false
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available; escalated for human review",
+    "confidenceScore": 0,
+    "memoryUpdates": [],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.215Z",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.215Z",
+        "details": "Confidence insufficient, human review required"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-B-001",
+    "normalizedInvoice": {
+      "currency": "EUR",
+      "vatIncluded": true
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available; escalated for human review",
+    "confidenceScore": 0,
+    "memoryUpdates": [
+      "Memory reinforced from human approval"
+    ],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.215Z",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.215Z",
+        "details": "Confidence insufficient, human review required"
+      },
+      {
+        "step": "learn",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Stored new vendor memory: VAT included → taxTotal"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-B-002",
+    "normalizedInvoice": {
+      "currency": null,
+      "vatIncluded": true
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available; escalated for human review",
+    "confidenceScore": 0,
+    "memoryUpdates": [],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Confidence insufficient, human review required"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-B-004",
+    "normalizedInvoice": {
+      "currency": "EUR",
+      "vatIncluded": false
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available; escalated for human review",
+    "confidenceScore": 0,
+    "memoryUpdates": [],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Confidence insufficient, human review required"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-C-001",
+    "normalizedInvoice": {
+      "currency": "EUR",
+      "vatIncluded": false,
+      "description": "Transport charges"
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available; escalated for human review",
+    "confidenceScore": 0,
+    "memoryUpdates": [
+      "Memory reinforced from human approval"
+    ],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Confidence insufficient, human review required"
+      },
+      {
+        "step": "learn",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Stored new vendor memory: VAT included → paymentTerms"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-C-002",
+    "normalizedInvoice": {
+      "currency": "EUR",
+      "vatIncluded": false,
+      "description": "Seefracht / Shipping"
+    },
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available; escalated for human review",
+    "confidenceScore": 0,
+    "memoryUpdates": [],
+    "auditTrail": [
+      {
+        "step": "recall",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "decide",
+        "timestamp": "2025-12-25T14:43:30.216Z",
+        "details": "Confidence insufficient, human review required"
+      }
+    ]
+  }
+]

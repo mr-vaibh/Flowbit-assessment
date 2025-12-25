@@ -1,0 +1,9 @@
+{
+  "purchaseOrders": [
+    {
+      "poNumber": "PO-A-051",
+      "vendor": "Supplier GmbH",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100 }]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "invoiceId": "INV-A-001",
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available",
+    "auditTrail": [
+      {
+        "step": "recall",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "learn",
+        "details": "Learned from human correction"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-A-002",
+    "proposedCorrections": [
+      "Filled serviceDate from Leistungsdatum"
+    ],
+    "requiresHumanReview": true,
+    "reasoning": "Applied learned vendor-specific memory",
+    "auditTrail": [
+      {
+        "step": "recall",
+        "details": "Recalled 1 memory records"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-A-003",
+    "proposedCorrections": [
+      "Filled serviceDate from Leistungsdatum"
+    ],
+    "requiresHumanReview": true,
+    "reasoning": "Applied learned vendor-specific memory",
+    "auditTrail": [
+      {
+        "step": "recall",
+        "details": "Recalled 1 memory records"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-A-004",
+    "requiresHumanReview": true,
+    "reasoning": "Duplicate invoice detected",
+    "auditTrail": [
+      {
+        "step": "decide",
+        "details": "Duplicate detected, skipped learning"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-B-001",
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available",
+    "auditTrail": [
+      {
+        "step": "recall",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "learn",
+        "details": "Learned from human correction"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-B-002",
+    "proposedCorrections": [
+      "Recomputed tax due to VAT-included pricing"
+    ],
+    "requiresHumanReview": true,
+    "reasoning": "Applied learned vendor-specific memory",
+    "auditTrail": [
+      {
+        "step": "recall",
+        "details": "Recalled 1 memory records"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-B-004",
+    "requiresHumanReview": true,
+    "reasoning": "Duplicate invoice detected",
+    "auditTrail": [
+      {
+        "step": "decide",
+        "details": "Duplicate detected, skipped learning"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-C-001",
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available",
+    "auditTrail": [
+      {
+        "step": "recall",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "learn",
+        "details": "Learned from human correction"
+      }
+    ]
+  },
+  {
+    "invoiceId": "INV-C-002",
+    "proposedCorrections": [],
+    "requiresHumanReview": true,
+    "reasoning": "No prior memory available",
+    "auditTrail": [
+      {
+        "step": "recall",
+        "details": "Recalled 0 memory records"
+      },
+      {
+        "step": "learn",
+        "details": "Learned freight SKU mapping"
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "invoiceId": "INV-A-001",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-001",
+      "serviceDate": null,
+      "currency": "EUR",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100 }]
+    },
+    "rawText": "Rechnungsnr: INV-2024-001\nLeistungsdatum: 01.01.2024"
+  },
+  {
+    "invoiceId": "INV-A-002",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-002",
+      "serviceDate": null,
+      "currency": "EUR",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100 }]
+    },
+    "rawText": "Rechnungsnr: INV-2024-002\nLeistungsdatum: 15.01.2024"
+  },
+  {
+    "invoiceId": "INV-A-003",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-003",
+      "serviceDate": null,
+      "currency": "EUR",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100 }]
+    },
+    "rawText": "Rechnungsnr: INV-2024-003\nLeistungsdatum: 20.01.2024"
+  },
+  {
+    "invoiceId": "INV-A-004",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-003",
+      "serviceDate": null,
+      "currency": "EUR",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100 }]
+    },
+    "rawText": "Duplicate submission"
+  },
+
+  {
+    "invoiceId": "INV-B-001",
+    "vendor": "Parts AG",
+    "fields": {
+      "invoiceNumber": "PA-7781",
+      "currency": "EUR",
+      "taxTotal": 400
+    },
+    "rawText": "Prices incl. VAT (MwSt. inkl.)"
+  },
+  {
+    "invoiceId": "INV-B-002",
+    "vendor": "Parts AG",
+    "fields": {
+      "invoiceNumber": "PA-7799",
+      "currency": null,
+      "taxTotal": 285
+    },
+    "rawText": "MwSt. inkl. Currency: EUR"
+  },
+  {
+    "invoiceId": "INV-B-004",
+    "vendor": "Parts AG",
+    "fields": {
+      "invoiceNumber": "PA-7799",
+      "currency": "EUR",
+      "taxTotal": 285
+    },
+    "rawText": "Duplicate PA-7799"
+  },
+
+  {
+    "invoiceId": "INV-C-001",
+    "vendor": "Freight & Co",
+    "fields": {
+      "invoiceNumber": "FC-1001",
+      "currency": "EUR",
+      "lineItems": [{ "description": "Transport charges" }]
+    },
+    "rawText": "2% Skonto if paid within 10 days"
+  },
+  {
+    "invoiceId": "INV-C-002",
+    "vendor": "Freight & Co",
+    "fields": {
+      "invoiceNumber": "FC-1002",
+      "currency": "EUR",
+      "lineItems": [{ "description": "Seefracht / Shipping" }]
+    },
+    "rawText": "Service: Seefracht"
+  }
+]
